@@ -84,7 +84,7 @@ public:
 
 int Wektor2D::num_wek = 0;
 
-int main() {
+int main() 
     {
         Wektor2D v1 = Wektor2D::kart(3.0, 4.0);
         Wektor2D v2 = Wektor2D::bieg(5.0, 3.14 / 3);
@@ -102,7 +102,7 @@ int main() {
 
         Wektor2D v4 = v2 * 2.0;
         std::cout << "Vector 4 (v2 * 2): " << v4 << std::endl;
-    }
+    
 
     std::cout << "Remaining vectors: " << Wektor2D::populacja() << std::endl;
 
