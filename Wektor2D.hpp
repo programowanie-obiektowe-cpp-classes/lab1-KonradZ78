@@ -72,8 +72,8 @@ public:
         return Wektor2D(x * scalar, y * scalar);
     }
 
-    friend Wektor2D operator+(const Wektor2D& v1, const Wektor2D& v2) {
-        return Wektor2D(v1.x + v2.x, v1.y + v2.y);
+    Wektor2D operator+(const Wektor2D& other) const {
+        return Wektor2D(x + other.x, y + other.y);
     }
 
     friend std::ostream& operator<<(std::ostream& os, const Wektor2D& vec) {
