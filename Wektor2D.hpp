@@ -20,7 +20,7 @@ private:
 
 public:
     Wektor2D(double x_val = 0.0, double y_val = 0.0) : x(x_val), y(y_val) {
-        num_wek++;n
+        num_wek++;
         std::cout << "Wektor (" << x << ", " << y << ") stworzony. Ilosc wektorow: " << num_wek << std::endl;
     }
 
