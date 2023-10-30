@@ -89,7 +89,8 @@ public:
 
 int Wektor2D::num_wek = 0;
 
-int main() {
+int main() 
+{
     Wektor2D v1{}; // Konstruktor domyślny, wektor o wsp. [0, 0]
     v1.setX(1.);   // setter
     v1.setY(1.);   // setter
