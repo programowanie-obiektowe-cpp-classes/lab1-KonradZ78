@@ -1,5 +1,7 @@
 #include <iostream>
 #include <cmath>
+#define CATCH_CONFIG_MAIN
+#include "catch.hpp"
 
 class Informer {
 public:
